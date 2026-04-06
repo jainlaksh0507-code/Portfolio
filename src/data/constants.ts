@@ -3,7 +3,7 @@ export enum SkillNames {
   GIT = "git",
   HTML = "html",
   CSS = "css",
-  JS = "js",
+  // JS = "js",
   // TS = "ts",
   // REACT = "react",
   // NODEJS = "nodejs",

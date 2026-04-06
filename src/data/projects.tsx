@@ -453,6 +453,7 @@ const PROJECT_SKILLS = {
 export type Project = {
 
   id: string;
+  type: "mobile" | "web";
   category: string;
   title: string;
   src: string;
