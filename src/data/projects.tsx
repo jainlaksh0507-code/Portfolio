@@ -588,7 +588,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "",
+    video: "/assets/projects-screenshots/fabrico/fabrico.mp4",
 
     get content() {
       return (
@@ -661,7 +661,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "",
+    video: "/assets/projects-screenshots/dfurn/dfurn.mp4",
 
     get content() {
       return (
@@ -735,7 +735,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "",
+    video: "/assets/projects-screenshots/banyanroots/banyanroots.mp4",
 
     get content() {
       return (
@@ -811,7 +811,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "",
+    video: "/assets/projects-screenshots/heyconcrete/heyconcrete.mp4",
 
     get content() {
       return (
@@ -883,7 +883,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "",
+    video: "/assets/projects-screenshots/vedanta/vedanta.mp4",
 
     get content() {
       return (
@@ -952,7 +952,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "",
+    video: "/assets/projects-screenshots/rmc/rmc.mp4",
 
     get content() {
       return (
@@ -1021,7 +1021,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "",
+    video: "/assets/projects-screenshots/rmcgreen/rmcgreen.mp4",
 
     get content() {
       return (
