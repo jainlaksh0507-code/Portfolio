@@ -133,7 +133,7 @@ const HeroSection = () => {
           )}
         </div>
         <div className="grid col-span-1 md:block hidden">
-          <img src="/assets/hero-bg.svg" alt="hero" className="w-[80%] h-[80%] object-contain mt-20" />
+          <img src="/assets/hero-bg-1.svg" alt="hero" className="w-[80%] h-[80%] object-contain mt-20" />
         </div>
       </div>
       <div className="absolute bottom-10 left-[50%] translate-x-[-50%]">
