@@ -587,7 +587,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "/assets/projects-screenshots/fabrico/fabrico.mp4",
+    video: "",
 
     get content() {
       return (
@@ -660,7 +660,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "/assets/projects-screenshots/dfurn/dfurn.mp4",
+    video: "",
 
     get content() {
       return (
@@ -734,7 +734,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "/assets/projects-screenshots/banyanroots/banyanroots.mp4",
+    video: "",
 
     get content() {
       return (
@@ -810,7 +810,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "/assets/projects-screenshots/heyconcrete/heyconcrete.mp4",
+    video: "",
 
     get content() {
       return (
@@ -849,213 +849,213 @@ const projects: Project[] = [
       );
     },
   },
-{
-  id: "vedanta-law-ui",
-  type: "web",
-  category: "Designed a Law Firm Website",
-  title: "Vedanta Law Chambers ",
+  {
+    id: "vedanta-law-ui",
+    type: "web",
+    category: "Designed a Law Firm Website",
+    title: "Vedanta Law Chambers ",
 
-  live: "https://vedantalawchambers.com/",
+    live: "https://vedantalawchambers.com/",
 
-  src: "/assets/projects-screenshots/vedanta/vedanta.png",
-  screenshots: ["1.png", "2.png", "3.png"],
+    src: "/assets/projects-screenshots/vedanta/vedanta.png",
+    screenshots: ["1.png", "2.png", "3.png"],
 
-  intigrationTechnologies: [
-    "Figma UI/UX Design",
-    "Professional Law Firm Layout",
-    "Wireframing & Prototyping",
-    "Service-Based Website Structure",
-    "Typography & Color Strategy",
-    "Responsive Web Design",
-    "Client Requirement Analysis",
-  ],
-
-  skills: {
-    design: [
-      PROJECT_SKILLS.figma,
-      PROJECT_SKILLS.uiDesign,
-      PROJECT_SKILLS.uxResearch,
-      PROJECT_SKILLS.wireframing,
-      PROJECT_SKILLS.prototyping,
-      PROJECT_SKILLS.designSystems,
+    intigrationTechnologies: [
+      "Figma UI/UX Design",
+      "Professional Law Firm Layout",
+      "Wireframing & Prototyping",
+      "Service-Based Website Structure",
+      "Typography & Color Strategy",
+      "Responsive Web Design",
+      "Client Requirement Analysis",
     ],
-    backend: [],
-  },
 
-  video: "/assets/projects-screenshots/vedanta/vedanta.mp4",
+    skills: {
+      design: [
+        PROJECT_SKILLS.figma,
+        PROJECT_SKILLS.uiDesign,
+        PROJECT_SKILLS.uxResearch,
+        PROJECT_SKILLS.wireframing,
+        PROJECT_SKILLS.prototyping,
+        PROJECT_SKILLS.designSystems,
+      ],
+      backend: [],
+    },
 
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono">
-          Vedanta Law Chambers is a professional law firm website designed to
-          reflect trust, authority, and clarity. The UI focuses on clean layouts,
-          structured information, and easy navigation for legal services.
-        </TypographyP>
+    video: "",
 
-        <TypographyH3 className="my-4 mt-8">
-          Design Flow
-        </TypographyH3>
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            Vedanta Law Chambers is a professional law firm website designed to
+            reflect trust, authority, and clarity. The UI focuses on clean layouts,
+            structured information, and easy navigation for legal services.
+          </TypographyP>
 
-        <p className="font-mono mb-2">
-          1. Elegant homepage showcasing firm identity.<br/>
-          2. Services section with detailed legal expertise.<br/>
-          3. Attorney profiles and credibility sections.<br/>
-          4. Case studies and client trust elements.<br/>
-          5. Contact & consultation booking flow.<br/>
-        </p>
+          <TypographyH3 className="my-4 mt-8">
+            Design Flow
+          </TypographyH3>
 
-        <TypographyH3 className="my-4 mt-8">
-          Design Tools & Technologies
-        </TypographyH3>
+          <p className="font-mono mb-2">
+            1. Elegant homepage showcasing firm identity.<br />
+            2. Services section with detailed legal expertise.<br />
+            3. Attorney profiles and credibility sections.<br />
+            4. Case studies and client trust elements.<br />
+            5. Contact & consultation booking flow.<br />
+          </p>
 
-        <div className="font-mono mb-2">
-          {this.intigrationTechnologies?.map((tech, index) => (
-            <p key={index}>{index + 1}. {tech}</p>
-          ))}
+          <TypographyH3 className="my-4 mt-8">
+            Design Tools & Technologies
+          </TypographyH3>
+
+          <div className="font-mono mb-2">
+            {this.intigrationTechnologies?.map((tech, index) => (
+              <p key={index}>{index + 1}. {tech}</p>
+            ))}
+          </div>
         </div>
-      </div>
-    );
+      );
+    },
   },
-},
-{
-  id: "rmc-ui",
-  type: "web",
-  category: "Designed a Corporate Website",
-  title: "RMC India",
+  {
+    id: "rmc-ui",
+    type: "web",
+    category: "Designed a Corporate Website",
+    title: "RMC India",
 
-  live: "https://www.figma.com/",
+    live: "https://www.figma.com/",
 
-  src: "/assets/projects-screenshots/rmc/rmc.png",
-  screenshots: ["1.png", "2.png", "3.png"],
+    src: "/assets/projects-screenshots/rmc/rmc.png",
+    screenshots: ["1.png", "2.png", "3.png"],
 
-  intigrationTechnologies: [
-    "Figma UI/UX Design",
-    "Corporate Website Design",
-    "Landing Page UI",
-    "Wireframing & Prototyping",
-    "Modern Grid Layout System",
-    "Responsive Design",
-    "Client Collaboration",
-  ],
-
-  skills: {
-    design: [
-      PROJECT_SKILLS.figma,
-      PROJECT_SKILLS.uiDesign,
-      PROJECT_SKILLS.uxResearch,
-      PROJECT_SKILLS.wireframing,
-      PROJECT_SKILLS.prototyping,
-      PROJECT_SKILLS.designSystems,
+    intigrationTechnologies: [
+      "Figma UI/UX Design",
+      "Corporate Website Design",
+      "Landing Page UI",
+      "Wireframing & Prototyping",
+      "Modern Grid Layout System",
+      "Responsive Design",
+      "Client Collaboration",
     ],
-    backend: [],
-  },
 
-  video: "/assets/projects-screenshots/rmc/rmc.mp4",
+    skills: {
+      design: [
+        PROJECT_SKILLS.figma,
+        PROJECT_SKILLS.uiDesign,
+        PROJECT_SKILLS.uxResearch,
+        PROJECT_SKILLS.wireframing,
+        PROJECT_SKILLS.prototyping,
+        PROJECT_SKILLS.designSystems,
+      ],
+      backend: [],
+    },
 
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono">
-          RMC is a corporate website designed to present company services,
-          achievements, and business solutions in a structured and modern way.
-          The focus was on clarity, professionalism, and brand consistency.
-        </TypographyP>
+    video: "",
 
-        <TypographyH3 className="my-4 mt-8">
-          Design Flow
-        </TypographyH3>
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            RMC is a corporate website designed to present company services,
+            achievements, and business solutions in a structured and modern way.
+            The focus was on clarity, professionalism, and brand consistency.
+          </TypographyP>
 
-        <p className="font-mono mb-2">
-          1. Clean homepage with strong brand identity.<br/>
-          2. Services and offerings section.<br/>
-          3. About company and achievements.<br/>
-          4. Client testimonials and trust indicators.<br/>
-          5. Contact and inquiry sections.<br/>
-        </p>
+          <TypographyH3 className="my-4 mt-8">
+            Design Flow
+          </TypographyH3>
 
-        <TypographyH3 className="my-4 mt-8">
-          Design Tools & Technologies
-        </TypographyH3>
+          <p className="font-mono mb-2">
+            1. Clean homepage with strong brand identity.<br />
+            2. Services and offerings section.<br />
+            3. About company and achievements.<br />
+            4. Client testimonials and trust indicators.<br />
+            5. Contact and inquiry sections.<br />
+          </p>
 
-        <div className="font-mono mb-2">
-          {this.intigrationTechnologies?.map((tech, index) => (
-            <p key={index}>{index + 1}. {tech}</p>
-          ))}
+          <TypographyH3 className="my-4 mt-8">
+            Design Tools & Technologies
+          </TypographyH3>
+
+          <div className="font-mono mb-2">
+            {this.intigrationTechnologies?.map((tech, index) => (
+              <p key={index}>{index + 1}. {tech}</p>
+            ))}
+          </div>
         </div>
-      </div>
-    );
+      );
+    },
   },
-},
-{
-  id: "rmc-green-ui",
-  type: "web",
-  category: "Designed a Sustainable Website",
-  title: "RMC Green ",
+  {
+    id: "rmc-green-ui",
+    type: "web",
+    category: "Designed a Sustainable Website",
+    title: "RMC Green ",
 
-  live: "https://green.rmcindia.in/",
+    live: "https://green.rmcindia.in/",
 
-  src: "/assets/projects-screenshots/rmcgreen/rmcgreen.png",
-  screenshots: ["1.png", "2.png", "3.png"],
+    src: "/assets/projects-screenshots/rmcgreen/rmcgreen.png",
+    screenshots: ["1.png", "2.png", "3.png"],
 
-  intigrationTechnologies: [
-    "Figma UI/UX Design",
-    "Eco-Friendly Theme Design",
-    "Green Branding UI",
-    "Wireframing & Prototyping",
-    "Sustainable Design Approach",
-    "Responsive Layout Design",
-    "User-Centric Design",
-  ],
-
-  skills: {
-    design: [
-      PROJECT_SKILLS.figma,
-      PROJECT_SKILLS.uiDesign,
-      PROJECT_SKILLS.uxResearch,
-      PROJECT_SKILLS.wireframing,
-      PROJECT_SKILLS.prototyping,
-      PROJECT_SKILLS.designSystems,
+    intigrationTechnologies: [
+      "Figma UI/UX Design",
+      "Eco-Friendly Theme Design",
+      "Green Branding UI",
+      "Wireframing & Prototyping",
+      "Sustainable Design Approach",
+      "Responsive Layout Design",
+      "User-Centric Design",
     ],
-    backend: [],
-  },
 
-  video: "/assets/projects-screenshots/rmcgreen/rmcgreen.mp4",
+    skills: {
+      design: [
+        PROJECT_SKILLS.figma,
+        PROJECT_SKILLS.uiDesign,
+        PROJECT_SKILLS.uxResearch,
+        PROJECT_SKILLS.wireframing,
+        PROJECT_SKILLS.prototyping,
+        PROJECT_SKILLS.designSystems,
+      ],
+      backend: [],
+    },
 
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono">
-          RMC Green is a sustainability-focused website designed with a modern
-          eco-friendly approach. The UI emphasizes green branding, clean layouts,
-          and a smooth user experience aligned with environmental values.
-        </TypographyP>
+    video: "",
 
-        <TypographyH3 className="my-4 mt-8">
-          Design Flow
-        </TypographyH3>
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            RMC Green is a sustainability-focused website designed with a modern
+            eco-friendly approach. The UI emphasizes green branding, clean layouts,
+            and a smooth user experience aligned with environmental values.
+          </TypographyP>
 
-        <p className="font-mono mb-2">
-          1. Nature-inspired homepage design.<br/>
-          2. Sustainable services showcase.<br/>
-          3. Informational sections about eco practices.<br/>
-          4. Clean and minimal UI for readability.<br/>
-          5. Contact and engagement flow.<br/>
-        </p>
+          <TypographyH3 className="my-4 mt-8">
+            Design Flow
+          </TypographyH3>
 
-        <TypographyH3 className="my-4 mt-8">
-          Design Tools & Technologies
-        </TypographyH3>
+          <p className="font-mono mb-2">
+            1. Nature-inspired homepage design.<br />
+            2. Sustainable services showcase.<br />
+            3. Informational sections about eco practices.<br />
+            4. Clean and minimal UI for readability.<br />
+            5. Contact and engagement flow.<br />
+          </p>
 
-        <div className="font-mono mb-2">
-          {this.intigrationTechnologies?.map((tech, index) => (
-            <p key={index}>{index + 1}. {tech}</p>
-          ))}
+          <TypographyH3 className="my-4 mt-8">
+            Design Tools & Technologies
+          </TypographyH3>
+
+          <div className="font-mono mb-2">
+            {this.intigrationTechnologies?.map((tech, index) => (
+              <p key={index}>{index + 1}. {tech}</p>
+            ))}
+          </div>
         </div>
-      </div>
-    );
+      );
+    },
   },
-},
   // +Club Automation App
   // {
   //   // 01. AI Docker file optimizer project
