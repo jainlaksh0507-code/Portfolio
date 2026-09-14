@@ -849,79 +849,79 @@ const projects: Project[] = [
       );
     },
   },
-  // {
-  //   id: "hey-concrete-ui",
-  //   type: "web",
-  //   category: "Designed a Wall Panel Website",
-  //   title: "Hey Concrete ",
+  {
+    id: "hey-concrete-ui",
+    type: "web",
+    category: "Designed a Wall Panel Website",
+    title: "Hey Concrete ",
 
-  //   live: "https://heyconcrete.com/",
+    live: "https://heyconcrete.com/",
 
-  //   src: "/assets/projects-screenshots/heyconcrete/heyconcrete.png",
-  //   screenshots: ["1.png", "2.png", "3.png"],
+    src: "/assets/projects-screenshots/heyconcrete/heyconcrete.png",
+    screenshots: ["1.png", "2.png", "3.png"],
 
-  //   intigrationTechnologies: [
-  //     "Figma UI/UX Design",
-  //     "Modern Website Layout Design",
-  //     "Wireframing & Prototyping",
-  //     "Product Showcase Design",
-  //     "Landing Page Design",
-  //     "Design Systems & Components",
-  //     "Responsive Web Design (Desktop + Tablet)",
-  //     "Client Collaboration & Iterations",
-  //   ],
+    intigrationTechnologies: [
+      "Figma UI/UX Design",
+      "Modern Website Layout Design",
+      "Wireframing & Prototyping",
+      "Product Showcase Design",
+      "Landing Page Design",
+      "Design Systems & Components",
+      "Responsive Web Design (Desktop + Tablet)",
+      "Client Collaboration & Iterations",
+    ],
 
-  //   skills: {
-  //     design: [
-  //       PROJECT_SKILLS.figma,
-  //       PROJECT_SKILLS.uiDesign,
-  //       PROJECT_SKILLS.uxResearch,
-  //       PROJECT_SKILLS.wireframing,
-  //       PROJECT_SKILLS.prototyping,
-  //       PROJECT_SKILLS.designSystems,
-  //     ],
-  //     backend: [],
-  //   },
+    skills: {
+      design: [
+        PROJECT_SKILLS.figma,
+        PROJECT_SKILLS.uiDesign,
+        PROJECT_SKILLS.uxResearch,
+        PROJECT_SKILLS.wireframing,
+        PROJECT_SKILLS.prototyping,
+        PROJECT_SKILLS.designSystems,
+      ],
+      backend: [],
+    },
 
-  //   video: "/assets/projects-screenshots/heyconcrete/heyconcrete.mp4",
+    video: "/assets/projects-screenshots/heyconcrete/heyconcrete.mp4",
 
-  //   get content() {
-  //     return (
-  //       <div>
-  //         <TypographyP className="font-mono">
-  //           Hey Concrete is a modern wall panel website designed to showcase premium
-  //           interior solutions. The design focuses on clean aesthetics, product
-  //           visibility, and a seamless browsing experience for users exploring wall
-  //           panel options.
-  //         </TypographyP>
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            Hey Concrete is a modern wall panel website designed to showcase premium
+            interior solutions. The design focuses on clean aesthetics, product
+            visibility, and a seamless browsing experience for users exploring wall
+            panel options.
+          </TypographyP>
 
-  //         <TypographyH3 className="my-4 mt-8">
-  //           Design Flow
-  //         </TypographyH3>
+          <TypographyH3 className="my-4 mt-8">
+            Design Flow
+          </TypographyH3>
 
-  //         <p className="font-mono mb-2">
-  //           1. Clean and minimal homepage highlighting premium wall panels.<br />
-  //           2. Product listing section with categories and filtering options.<br />
-  //           3. Detailed product pages with textures, finishes, and specifications.<br />
-  //           4. Smooth navigation with modern UI components.<br />
-  //           5. Contact and inquiry sections for lead generation.<br />
-  //         </p>
+          <p className="font-mono mb-2">
+            1. Clean and minimal homepage highlighting premium wall panels.<br />
+            2. Product listing section with categories and filtering options.<br />
+            3. Detailed product pages with textures, finishes, and specifications.<br />
+            4. Smooth navigation with modern UI components.<br />
+            5. Contact and inquiry sections for lead generation.<br />
+          </p>
 
-  //         <TypographyH3 className="my-4 mt-8">
-  //           Design Tools & Technologies
-  //         </TypographyH3>
+          <TypographyH3 className="my-4 mt-8">
+            Design Tools & Technologies
+          </TypographyH3>
 
-  //         <div className="font-mono mb-2">
-  //           {this.intigrationTechnologies?.map((tech, index) => (
-  //             <p key={index}>
-  //               {index + 1}. {tech}
-  //             </p>
-  //           ))}
-  //         </div>
-  //       </div>
-  //     );
-  //   },
-  // },
+          <div className="font-mono mb-2">
+            {this.intigrationTechnologies?.map((tech, index) => (
+              <p key={index}>
+                {index + 1}. {tech}
+              </p>
+            ))}
+          </div>
+        </div>
+      );
+    },
+  },
   {
     id: "vedanta-law-ui",
     type: "web",
