@@ -557,14 +557,13 @@ const projects: Project[] = [
   //       );
   //     },
   //   },
-
   {
-    id: "Fabrico-Laundry-App",
-    type: "mobile",
+    id: "website-animation",
+    type: "web",
     category: "Designed an app for Tier 1 & Tier 2 cities",
-    title: "FabricoLaundryApp",
-    live: "https://www.figma.com/design/Pn5FAQwvqHwzYQTnOXTWDG/Laundry-app?node-id=0-1&p=f",
-    src: "/assets/projects-screenshots/fabrico/fabrico.png",
+    title: "Wesite Hero Animation",
+    live: "https://www.figma.com/design/CbOaWTCsRERoomYFdbh28b/Website-hero-animation--Community-?node-id=1-419&p=f",
+    src: "/assets/projects-screenshots/websiteHeroAnimation/website-animation.png",
     screenshots: ["1.png", "2.png", "3.png"],
 
     intigrationTechnologies: [
@@ -588,7 +587,7 @@ const projects: Project[] = [
       backend: [],
     },
 
-    video: "/assets/projects-screenshots/fabrico/fabrico.mp4",
+    video: "/assets/projects-screenshots/websiteHeroAnimation/website-animation.mp4",
 
     get content() {
       return (
@@ -630,6 +629,79 @@ const projects: Project[] = [
       );
     },
   },
+  {
+    id: "landing-page",
+    type: "web",
+    category: "Designed an app for Tier 1 & Tier 2 cities",
+    title: "Landing Page",
+    live: "https://www.figma.com/design/GRojk6aSXQnwsn5dlKGJ1Q/Natural-handicraft-Landing-page?node-id=0-1&p=f",
+    src: "/assets/projects-screenshots/LandingPage/landing-page.png",
+    screenshots: ["1.png", "2.png", "3.png"],
+
+    intigrationTechnologies: [
+      "Figma UI/UX Design",
+      "Wireframing & Prototyping",
+      "Design Systems & Components",
+      "User Flow & Journey Mapping",
+      "Interactive Prototypes (Figma)",
+      "Collaboration with Developers & Stakeholders",
+    ],
+
+    skills: {
+      design: [
+        PROJECT_SKILLS.figma,
+        PROJECT_SKILLS.uiDesign,
+        PROJECT_SKILLS.uxResearch,
+        PROJECT_SKILLS.wireframing,
+        PROJECT_SKILLS.prototyping,
+        PROJECT_SKILLS.designSystems,
+      ],
+      backend: [],
+    },
+
+    video: "/assets/projects-screenshots/LandingPage/landing-page.mp4",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            Fabrico is a laundry service mobile application designed for users in
+            Tier 1 and Tier 2 cities. The app provides a seamless experience for
+            booking laundry services, tracking orders, and ensuring timely delivery.
+          </TypographyP>
+
+          <TypographyH3 className="my-4 mt-8">
+            Design Flow
+          </TypographyH3>
+
+          <p className="font-mono mb-2">
+            1. User onboarding with simple and intuitive screens.
+            <br />
+            2. Browse laundry services and select required options.
+            <br />
+            3. Schedule pickup and delivery slots.
+            <br />
+            4. Real-time order tracking and status updates.
+            <br />
+            5. Smooth checkout and confirmation flow.
+          </p>
+
+          <TypographyH3 className="my-4 mt-8">
+            Design Tools & Technologies
+          </TypographyH3>
+
+          <div className="font-mono mb-2">
+            {this.intigrationTechnologies?.map((tech, index) => (
+              <p key={index}>
+                {index + 1}. {tech}
+              </p>
+            ))}
+          </div>
+        </div>
+      );
+    },
+  },
+
+
   {
     id: "dfurn-ui",
     type: "web",
@@ -777,79 +849,79 @@ const projects: Project[] = [
       );
     },
   },
-  {
-    id: "hey-concrete-ui",
-    type: "web",
-    category: "Designed a Wall Panel Website",
-    title: "Hey Concrete ",
+  // {
+  //   id: "hey-concrete-ui",
+  //   type: "web",
+  //   category: "Designed a Wall Panel Website",
+  //   title: "Hey Concrete ",
 
-    live: "https://heyconcrete.com/",
+  //   live: "https://heyconcrete.com/",
 
-    src: "/assets/projects-screenshots/heyconcrete/heyconcrete.png",
-    screenshots: ["1.png", "2.png", "3.png"],
+  //   src: "/assets/projects-screenshots/heyconcrete/heyconcrete.png",
+  //   screenshots: ["1.png", "2.png", "3.png"],
 
-    intigrationTechnologies: [
-      "Figma UI/UX Design",
-      "Modern Website Layout Design",
-      "Wireframing & Prototyping",
-      "Product Showcase Design",
-      "Landing Page Design",
-      "Design Systems & Components",
-      "Responsive Web Design (Desktop + Tablet)",
-      "Client Collaboration & Iterations",
-    ],
+  //   intigrationTechnologies: [
+  //     "Figma UI/UX Design",
+  //     "Modern Website Layout Design",
+  //     "Wireframing & Prototyping",
+  //     "Product Showcase Design",
+  //     "Landing Page Design",
+  //     "Design Systems & Components",
+  //     "Responsive Web Design (Desktop + Tablet)",
+  //     "Client Collaboration & Iterations",
+  //   ],
 
-    skills: {
-      design: [
-        PROJECT_SKILLS.figma,
-        PROJECT_SKILLS.uiDesign,
-        PROJECT_SKILLS.uxResearch,
-        PROJECT_SKILLS.wireframing,
-        PROJECT_SKILLS.prototyping,
-        PROJECT_SKILLS.designSystems,
-      ],
-      backend: [],
-    },
+  //   skills: {
+  //     design: [
+  //       PROJECT_SKILLS.figma,
+  //       PROJECT_SKILLS.uiDesign,
+  //       PROJECT_SKILLS.uxResearch,
+  //       PROJECT_SKILLS.wireframing,
+  //       PROJECT_SKILLS.prototyping,
+  //       PROJECT_SKILLS.designSystems,
+  //     ],
+  //     backend: [],
+  //   },
 
-    video: "/assets/projects-screenshots/heyconcrete/heyconcrete.mp4",
+  //   video: "/assets/projects-screenshots/heyconcrete/heyconcrete.mp4",
 
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono">
-            Hey Concrete is a modern wall panel website designed to showcase premium
-            interior solutions. The design focuses on clean aesthetics, product
-            visibility, and a seamless browsing experience for users exploring wall
-            panel options.
-          </TypographyP>
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono">
+  //           Hey Concrete is a modern wall panel website designed to showcase premium
+  //           interior solutions. The design focuses on clean aesthetics, product
+  //           visibility, and a seamless browsing experience for users exploring wall
+  //           panel options.
+  //         </TypographyP>
 
-          <TypographyH3 className="my-4 mt-8">
-            Design Flow
-          </TypographyH3>
+  //         <TypographyH3 className="my-4 mt-8">
+  //           Design Flow
+  //         </TypographyH3>
 
-          <p className="font-mono mb-2">
-            1. Clean and minimal homepage highlighting premium wall panels.<br />
-            2. Product listing section with categories and filtering options.<br />
-            3. Detailed product pages with textures, finishes, and specifications.<br />
-            4. Smooth navigation with modern UI components.<br />
-            5. Contact and inquiry sections for lead generation.<br />
-          </p>
+  //         <p className="font-mono mb-2">
+  //           1. Clean and minimal homepage highlighting premium wall panels.<br />
+  //           2. Product listing section with categories and filtering options.<br />
+  //           3. Detailed product pages with textures, finishes, and specifications.<br />
+  //           4. Smooth navigation with modern UI components.<br />
+  //           5. Contact and inquiry sections for lead generation.<br />
+  //         </p>
 
-          <TypographyH3 className="my-4 mt-8">
-            Design Tools & Technologies
-          </TypographyH3>
+  //         <TypographyH3 className="my-4 mt-8">
+  //           Design Tools & Technologies
+  //         </TypographyH3>
 
-          <div className="font-mono mb-2">
-            {this.intigrationTechnologies?.map((tech, index) => (
-              <p key={index}>
-                {index + 1}. {tech}
-              </p>
-            ))}
-          </div>
-        </div>
-      );
-    },
-  },
+  //         <div className="font-mono mb-2">
+  //           {this.intigrationTechnologies?.map((tech, index) => (
+  //             <p key={index}>
+  //               {index + 1}. {tech}
+  //             </p>
+  //           ))}
+  //         </div>
+  //       </div>
+  //     );
+  //   },
+  // },
   {
     id: "vedanta-law-ui",
     type: "web",
@@ -919,75 +991,76 @@ const projects: Project[] = [
       );
     },
   },
-  {
-    id: "rmc-ui",
-    type: "web",
-    category: "Designed a Corporate Website",
-    title: "RMC India",
 
-    live: "https://www.figma.com/",
+  // {
+  //   id: "rmc-ui",
+  //   type: "web",
+  //   category: "Designed a Corporate Website",
+  //   title: "RMC India",
 
-    src: "/assets/projects-screenshots/rmc/rmc.png",
-    screenshots: ["1.png", "2.png", "3.png"],
+  //   live: "https://www.figma.com/",
 
-    intigrationTechnologies: [
-      "Figma UI/UX Design",
-      "Corporate Website Design",
-      "Landing Page UI",
-      "Wireframing & Prototyping",
-      "Modern Grid Layout System",
-      "Responsive Design",
-      "Client Collaboration",
-    ],
+  //   src: "/assets/projects-screenshots/rmc/rmc.png",
+  //   screenshots: ["1.png", "2.png", "3.png"],
 
-    skills: {
-      design: [
-        PROJECT_SKILLS.figma,
-        PROJECT_SKILLS.uiDesign,
-        PROJECT_SKILLS.uxResearch,
-        PROJECT_SKILLS.wireframing,
-        PROJECT_SKILLS.prototyping,
-        PROJECT_SKILLS.designSystems,
-      ],
-      backend: [],
-    },
+  //   intigrationTechnologies: [
+  //     "Figma UI/UX Design",
+  //     "Corporate Website Design",
+  //     "Landing Page UI",
+  //     "Wireframing & Prototyping",
+  //     "Modern Grid Layout System",
+  //     "Responsive Design",
+  //     "Client Collaboration",
+  //   ],
 
-    video: "/assets/projects-screenshots/rmc/rmc.mp4",
+  //   skills: {
+  //     design: [
+  //       PROJECT_SKILLS.figma,
+  //       PROJECT_SKILLS.uiDesign,
+  //       PROJECT_SKILLS.uxResearch,
+  //       PROJECT_SKILLS.wireframing,
+  //       PROJECT_SKILLS.prototyping,
+  //       PROJECT_SKILLS.designSystems,
+  //     ],
+  //     backend: [],
+  //   },
 
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono">
-            RMC is a corporate website designed to present company services,
-            achievements, and business solutions in a structured and modern way.
-            The focus was on clarity, professionalism, and brand consistency.
-          </TypographyP>
+  //   video: "/assets/projects-screenshots/rmc/rmc.mp4",
 
-          <TypographyH3 className="my-4 mt-8">
-            Design Flow
-          </TypographyH3>
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono">
+  //           RMC is a corporate website designed to present company services,
+  //           achievements, and business solutions in a structured and modern way.
+  //           The focus was on clarity, professionalism, and brand consistency.
+  //         </TypographyP>
 
-          <p className="font-mono mb-2">
-            1. Clean homepage with strong brand identity.<br />
-            2. Services and offerings section.<br />
-            3. About company and achievements.<br />
-            4. Client testimonials and trust indicators.<br />
-            5. Contact and inquiry sections.<br />
-          </p>
+  //         <TypographyH3 className="my-4 mt-8">
+  //           Design Flow
+  //         </TypographyH3>
 
-          <TypographyH3 className="my-4 mt-8">
-            Design Tools & Technologies
-          </TypographyH3>
+  //         <p className="font-mono mb-2">
+  //           1. Clean homepage with strong brand identity.<br />
+  //           2. Services and offerings section.<br />
+  //           3. About company and achievements.<br />
+  //           4. Client testimonials and trust indicators.<br />
+  //           5. Contact and inquiry sections.<br />
+  //         </p>
 
-          <div className="font-mono mb-2">
-            {this.intigrationTechnologies?.map((tech, index) => (
-              <p key={index}>{index + 1}. {tech}</p>
-            ))}
-          </div>
-        </div>
-      );
-    },
-  },
+  //         <TypographyH3 className="my-4 mt-8">
+  //           Design Tools & Technologies
+  //         </TypographyH3>
+
+  //         <div className="font-mono mb-2">
+  //           {this.intigrationTechnologies?.map((tech, index) => (
+  //             <p key={index}>{index + 1}. {tech}</p>
+  //           ))}
+  //         </div>
+  //       </div>
+  //     );
+  //   },
+  // },
   {
     id: "rmc-green-ui",
     type: "web",
@@ -1057,6 +1130,151 @@ const projects: Project[] = [
       );
     },
   },
+  {
+    id: "GroceryApp",
+    type: "mobile",
+    category: "Designed an app for Tier 1 & Tier 2 cities",
+    title: "GroceryApp",
+    live: "https://www.figma.com/design/cfab8uzqs6B6aqvNNf34uA/Grocery-app?node-id=6006-3009",
+    src: "/assets/projects-screenshots/GroceryApp/App.png",
+    screenshots: ["1.png", "2.png", "3.png"],
+
+    intigrationTechnologies: [
+      "Figma UI/UX Design",
+      "Wireframing & Prototyping",
+      "Design Systems & Components",
+      "User Flow & Journey Mapping",
+      "Interactive Prototypes (Figma)",
+      "Collaboration with Developers & Stakeholders",
+    ],
+
+    skills: {
+      design: [
+        PROJECT_SKILLS.figma,
+        PROJECT_SKILLS.uiDesign,
+        PROJECT_SKILLS.uxResearch,
+        PROJECT_SKILLS.wireframing,
+        PROJECT_SKILLS.prototyping,
+        PROJECT_SKILLS.designSystems,
+      ],
+      backend: [],
+    },
+
+    video: "/assets/projects-screenshots/GroceryApp/App.mp4",
+
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            Fabrico is a laundry service mobile application designed for users in
+            Tier 1 and Tier 2 cities. The app provides a seamless experience for
+            booking laundry services, tracking orders, and ensuring timely delivery.
+          </TypographyP>
+
+          <TypographyH3 className="my-4 mt-8">
+            Design Flow
+          </TypographyH3>
+
+          <p className="font-mono mb-2">
+            1. User onboarding with simple and intuitive screens.
+            <br />
+            2. Browse laundry services and select required options.
+            <br />
+            3. Schedule pickup and delivery slots.
+            <br />
+            4. Real-time order tracking and status updates.
+            <br />
+            5. Smooth checkout and confirmation flow.
+          </p>
+
+          <TypographyH3 className="my-4 mt-8">
+            Design Tools & Technologies
+          </TypographyH3>
+
+          <div className="font-mono mb-2">
+            {this.intigrationTechnologies?.map((tech, index) => (
+              <p key={index}>
+                {index + 1}. {tech}
+              </p>
+            ))}
+          </div>
+        </div>
+      );
+    },
+  },
+  {
+    id: "Fabrico-Laundry-App",
+    type: "mobile",
+    category: "Designed an app for Tier 1 & Tier 2 cities",
+    title: "FabricoLaundryApp",
+    live: "https://www.figma.com/design/Pn5FAQwvqHwzYQTnOXTWDG/Laundry-app?node-id=0-1&p=f",
+    src: "/assets/projects-screenshots/fabrico/fabrico.png",
+    screenshots: ["1.png", "2.png", "3.png"],
+
+    intigrationTechnologies: [
+      "Figma UI/UX Design",
+      "Wireframing & Prototyping",
+      "Design Systems & Components",
+      "User Flow & Journey Mapping",
+      "Interactive Prototypes (Figma)",
+      "Collaboration with Developers & Stakeholders",
+    ],
+
+    skills: {
+      design: [
+        PROJECT_SKILLS.figma,
+        PROJECT_SKILLS.uiDesign,
+        PROJECT_SKILLS.uxResearch,
+        PROJECT_SKILLS.wireframing,
+        PROJECT_SKILLS.prototyping,
+        PROJECT_SKILLS.designSystems,
+      ],
+      backend: [],
+    },
+
+    video: "/assets/projects-screenshots/fabrico/fabrico.mp4",
+
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            Fabrico is a laundry service mobile application designed for users in
+            Tier 1 and Tier 2 cities. The app provides a seamless experience for
+            booking laundry services, tracking orders, and ensuring timely delivery.
+          </TypographyP>
+
+          <TypographyH3 className="my-4 mt-8">
+            Design Flow
+          </TypographyH3>
+
+          <p className="font-mono mb-2">
+            1. User onboarding with simple and intuitive screens.
+            <br />
+            2. Browse laundry services and select required options.
+            <br />
+            3. Schedule pickup and delivery slots.
+            <br />
+            4. Real-time order tracking and status updates.
+            <br />
+            5. Smooth checkout and confirmation flow.
+          </p>
+
+          <TypographyH3 className="my-4 mt-8">
+            Design Tools & Technologies
+          </TypographyH3>
+
+          <div className="font-mono mb-2">
+            {this.intigrationTechnologies?.map((tech, index) => (
+              <p key={index}>
+                {index + 1}. {tech}
+              </p>
+            ))}
+          </div>
+        </div>
+      );
+    },
+  },
+
   // +Club Automation App
   // {
   //   // 01. AI Docker file optimizer project

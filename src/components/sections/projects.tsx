@@ -30,7 +30,7 @@ const ProjectsSection = () => {
 
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
-    <div className="flex items-center justify-center p-2">
+    <div className="flex items-center justify-center p-2 ">
       <Link href={`/projects/${project.id}`} className="block group">
         <div className="relative w-[280px] sm:w-[320px] md:w-[380px] lg:w-[400px] h-auto rounded-2xl overflow-hidden cursor-pointer transform-gpu transition-all duration-500 ease-out group-hover:scale-[1.02] group-hover:shadow-2xl group-hover:shadow-black/20 dark:group-hover:shadow-white/10">
           {/* Background card with subtle border */}
